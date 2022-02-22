@@ -1,0 +1,54 @@
+.sfondo{
+    background: url(/assets/img/Sfondo.jpeg) no-repeat center center fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;   
+}
+
+.sfondo2{
+    background: url(/assets/img/sfondo-2.jpeg) no-repeat center center fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+.centrato{
+    display: block;
+    max-width: 500px;
+    margin: 0 auto;
+    height: 300px;
+    position: relative;
+    transform-style: preserve-3d;
+
+}
+
+.testo{
+    margin-top: auto;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform:translateY(-50%);
+}
+
+.grigio{
+    background-color:#ff000000;
+}
+
+.bianco{
+    color: white;
+}
+
+.mybox{
+    border: 10px solid #ff000000;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 70px;
+    padding-top: 10px;
+
+}
+
