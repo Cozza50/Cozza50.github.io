@@ -15,6 +15,7 @@
 }
 
 .centrato{
+  padding-top: 100px;
     display: block;
     max-width: 500px;
     margin: 0 auto;
@@ -45,7 +46,7 @@
     border: 10px solid #ff000000;
     width: 50%;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 150px;
     margin-bottom: 50px;
     padding-bottom: 70px;
     padding-top: 10px;
@@ -53,9 +54,9 @@
 }
 
 /* Animazione bottoni */
-.btn{
+.bottone{
     background-color: #fff;
-    border: 5px solid #333;
+    border: solid #333;
     border-radius: 6px;
     color: rgb(255, 0, 0);
     display: block;
@@ -69,14 +70,14 @@
     transition: all .6s;
   }
   
-  .btn:hover{
+.bottone:hover{
     background-color: rgb(255, 0, 0);
     color: #fff;
   }
 
   .btn2{
     background-color: #fff;
-    border: 5px solid #333;
+    border: solid #333;
     border-radius: 6px;
     color: #333;
     display: block;
