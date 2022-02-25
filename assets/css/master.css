@@ -52,3 +52,66 @@
 
 }
 
+/* Animazione bottoni */
+.btn{
+    background-color: #fff;
+    border: 5px solid #333;
+    border-radius: 6px;
+    color: rgb(255, 0, 0);
+    display: block;
+    font-family: sans-serif;
+    margin: 10px auto;
+    max-width: 100px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+  
+    transition: all .6s;
+  }
+  
+  .btn:hover{
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+  }
+
+  .btn2{
+    background-color: #fff;
+    border: 5px solid #333;
+    border-radius: 6px;
+    color: #333;
+    display: block;
+    font-family: sans-serif;
+    margin: 10px auto;
+    max-width: 100px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+  
+    transition: all .6s;
+  }
+  
+  .btn2:hover{
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+  }
+
+  .social{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #333;
+    border-radius: 6px;
+    color: rgb(255, 0, 0);
+    display: block;
+    font-family: sans-serif;
+    margin: 5px;
+    max-width: 1000px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+  
+    transition: all .6s;
+  }
+  
+  .social:hover{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+  }
