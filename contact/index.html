@@ -4,17 +4,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>Hello, world!</title>
+    <title>Pier Francesco Tripodi - Contatti</title>
     <link rel="stylesheet" href="/assets/css/master.css" type="text/css">
+    <link rel="shortcut icon" type="image/jpg" href="/assets/img/favicon.png"/>
   </head>
 
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+  <body class="sfondo2">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top barra">
       <div class="container-fluid">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link-danger active bottone" aria-current="page" href="/aboutme/index.html">Home</a>
+              <a class="nav-link-danger active bottone" aria-current="page" href="/index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link-danger active bottone" aria-current="page" href="/aboutme/index.html">About Me</a>
@@ -35,11 +36,46 @@
             </li>
           </ul>
           <form class="d-flex">
-            <button class="btn btn-outline-danger bottone" type="submit" href="/contact/index.html" >CONTACT</button>
+            <button class="btn btn-outline-danger bottone" type="submit" href="/contact/index.html">CONTACT</button>
           </form>
         </div>
       </div>
     </nav>
+
+    <br><br>
+    <h3 class="centrato bianco">Vuoi sapere di più sulla blockcahin? <br>
+      Vuoi sapere altro di me e delle mie skills? <br>
+      Vuoi parlare di sport o vuoi sfidarmi in qualche disciplina? <br>
+      Beh, cosa aspetti? Contattami qui sotto!!!
+    </h3>
+
+
+
+    <form action="contact.php" method="post" align="center">
+      <div class="elem-group">
+        <label for="name" class="bianco">Tuo Nome</label>
+        <input type="text" id="name" name="visitor_name" placeholder="" pattern=[A-Z\sa-z]{3,20} required>
+      </div>
+      <div class="elem-group">
+        <label for="email" class="bianco">Email</label>
+        <input type="email" id="email" name="visitor_email" placeholder="" required>
+      </div>
+      <div class="elem-group">
+        <label for="department-selection" class="bianco">Motivo Del Contatto</label>
+        <select id="department-selection" name="concerned_department" required>
+            <option value="">Motivo del Contatto</option>
+            <option value="billing">Blockchain</option>
+            <option value="marketing">Skills</option>
+            <option value="technical support">Sport</option>
+        </select>
+      </div>
+
+      <div class="elem-group">
+        <label for="message" class="bianco">Lascia un messaggio</label>
+        <textarea id="message" name="visitor_message" placeholder="" required></textarea>
+      </div>
+      <button class="bottone" type="submit">Manda Messaggio</button>
+    </form>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
