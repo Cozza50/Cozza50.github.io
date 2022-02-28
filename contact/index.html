@@ -10,7 +10,7 @@
   </head>
 
   <body class="sfondo2">
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top barra">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
       <div class="container-fluid">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -42,28 +42,27 @@
       </div>
     </nav>
 
-    <br><br>
-    <h3 class="centrato bianco">Vuoi sapere di più sulla blockcahin? <br>
-      Vuoi sapere altro di me e delle mie skills? <br>
-      Vuoi parlare di sport o vuoi sfidarmi in qualche disciplina? <br>
-      Beh, cosa aspetti? Contattami qui sotto!!!
+    <br><br><br><br><br>
+
+    <h3 class="bianco" align="center">
+      Vuoi saperne di più di blockchain e criptovalute?
+      <br> Vuoi sapere di più su di me e sulle mie skills?
+      <br> Vuoi semplicemente fare due chiacchere?
+      <br> Oltre ai vari social, puoi contattarmi qui sotto.
     </h3>
-
-
 
     <form action="contact.php" method="post" align="center">
       <div class="elem-group">
-        <label for="name" class="bianco">Tuo Nome</label>
-        <input type="text" id="name" name="visitor_name" placeholder="" pattern=[A-Z\sa-z]{3,20} required>
+        <label for="name" class="bianco"></label>
+        <input type="text" id="name" name="visitor_name" placeholder="Tuo Nome" pattern=[A-Z\sa-z]{3,20} required>
       </div>
       <div class="elem-group">
-        <label for="email" class="bianco">Email</label>
-        <input type="email" id="email" name="visitor_email" placeholder="" required>
+        <label for="email" class="bianco"></label>
+        <input type="email" id="email" name="visitor_email" placeholder="Email" required>
       </div>
       <div class="elem-group">
         <label for="department-selection" class="bianco">Motivo Del Contatto</label>
         <select id="department-selection" name="concerned_department" required>
-            <option value="">Motivo del Contatto</option>
             <option value="billing">Blockchain</option>
             <option value="marketing">Skills</option>
             <option value="technical support">Sport</option>
